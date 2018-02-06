@@ -8,6 +8,7 @@ class  Toggable {
  	this.el.addEventListener('click', this.onClick.bind(this))
 
  	//al this.onClick resulta ser un callbabck
+ 	//el bin determina el this en el contexto
  } 
  onClick(ev){
  	this.activated = !this.activated
